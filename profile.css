@@ -87,7 +87,6 @@ body{
 .top{
 	overflow: auto;
 	padding: 20px;
-	border-bottom: #a7adba solid 5px;
 }
 
 .summary{
@@ -106,7 +105,7 @@ body{
 }
 
 .resumecont{
-	width: 33%;
+	width: 50%;
 	float: left;
 	text-align: center;
 }
@@ -137,7 +136,7 @@ body{
 
 .links{
 	float: right;
-	width: 66%;
+	width: 50%;
 }
 
 .links-ul{
