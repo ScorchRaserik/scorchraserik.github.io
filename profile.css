@@ -91,7 +91,7 @@ body{
 
 .summary{
 	float: left;
-	width: 75%;
+	width: 90%;
 }
 
 .summary::first-line{
@@ -105,7 +105,7 @@ body{
 }
 
 .resumecont{
-	width: 50%;
+	width: 35%;
 	float: left;
 	text-align: center;
 }
@@ -136,7 +136,7 @@ body{
 
 .links{
 	float: right;
-	width: 50%;
+	width: 65%;
 }
 
 .links-ul{
