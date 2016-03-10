@@ -1,0 +1,151 @@
+// http://www.color-hex.com/color-palette/2280
+
+html{
+	
+}
+
+body{
+	width: 100%;
+	height: 100%;
+	min-width: 900px;
+	background-color: #65737e;
+	margin: 0px !important;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+.headerbar{
+	width: 100%;
+	height: 200px;
+	background-color: #4f5b66;
+	color: #fffefe;
+	padding-top: 20px;
+}
+
+.profilepic{
+	width: 25%;
+	height: 100%;
+	float: left;
+	text-align: center;
+}
+
+.pic-container{
+	width: 175px;
+	height: 175px;
+	display: inline-block;
+	background-color: #c0c5ce;
+	position: relative;
+	left: -10px;
+	border-radius: 50%;
+	background-image: url('profilepic.jpg');
+}
+
+.maininfo{
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+
+.name{
+	font-size: 50px;
+	margin-bottom: 15px;
+}
+
+.currentjob{
+	font-size: 20px;
+	line-height: 30px;
+	font-style: italic;
+	font-weight: 300;
+}
+
+.contactinfo{
+	width: 25%;
+	height: 100%;
+	float: left;
+}
+
+.infobar{
+	background-color: #343d46;
+	margin-bottom: 5px;
+	height: 20px;
+	width: 185px;
+	line-height: 20px;
+	padding-left: 10px;
+	font-size: 13px;
+	border-radius: 10px;
+}
+
+.aboutme{
+	margin-left: 20%;
+	margin-right: 10%;
+	width: 70%;
+	min-height: 500px;
+	position: relative;
+	top: -40px;
+	background-color: #c0c5ce;
+}
+
+.top{
+	overflow: auto;
+	padding: 20px;
+	border-bottom: #a7adba solid 5px;
+}
+
+.summary{
+	float: left;
+	width: 75%;
+}
+
+.summary::first-line{
+	font-size: 25px;
+	font-style: bold;
+}
+
+.bot{
+	overflow: auto;
+	padding: 20px;
+}
+
+.resumecont{
+	width: 33%;
+	float: left;
+	text-align: center;
+}
+
+.resumebtn{
+	display: inline-block;
+	width: 150px;
+	height: 150px;
+	background-color: #343d46;
+	color: #fffefe;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-top: 30px;
+}
+
+.icon{
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	background-color: #fffefe;
+	border-radius: 50%;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	color: #343d46;
+	line-height: 46px;
+	font-size: 25px;
+}
+
+.links{
+	float: right;
+	width: 66%;
+}
+
+.links-ul{
+	margin-top: 5px !important;
+}
+
+.links::first-line{
+	font-size: 20px;
+	font-style: bold;
+	line-height: 30px;
+}
